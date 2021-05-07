@@ -13,7 +13,7 @@ function calculateSchool () {
     document.getElementById('answer').innerHTML = 'Time to relax for the weekend!'
   } else if (age < 18) {
     document.getElementById('answer').innerHTML = 'Time for school!'
-  } else if (age => 18) {
+  } else if (age >= 18) {
     document.getElementById('answer').innerHTML = 'Time to go to work!'
   }
 }
